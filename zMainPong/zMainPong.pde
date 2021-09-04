@@ -50,6 +50,8 @@ void setup()
     //background color
     background(black);
     
+    frameRate(60);
+    
     //reset scores?
     lscore = 0;
     rscore = 0;
@@ -58,7 +60,7 @@ void setup()
 
 void draw()
 {
-    frameRate(60);
+    //frameRate(60);
     //if the keys aren't pressed, don't move   
     if (runLoop % 8 == 0)
     {
